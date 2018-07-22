@@ -1,0 +1,12 @@
+platform :ios, '11.4'
+use_frameworks!
+
+target 'SoundWave_Example' do
+  pod 'SoundWave', :path => '../'
+  pod 'SCLAlertView'
+  target 'SoundWave_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
