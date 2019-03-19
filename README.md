@@ -1,5 +1,7 @@
 #  BFP -- SoundWave
 
+> This is a project for The Hack 2018, was awared the 2nd prize of KHOLER company specific award
+
 ### Bathroom Faint Protection
 
 As some people are potentially risky of get faint during their bath time,
@@ -11,3 +13,9 @@ Therefore we come up with the idea that we may use the sound to detect this kind
 So we can tell from the soundwave graph whether the user is safe.
 
 This app will listen to the sound in the bathroom and perform systematic ananysis based on the built-in Neurual network model. If the match ratio of the sound detected and the stored model, then the app will make urgent call and try to evoke the user by calling his name.
+
+### how to run this app?
+
+- first, download this project
+- open bathGuard/SoundWave1/Example/SoundWave.xcworkspace with Xcode
+- run on the simulator
